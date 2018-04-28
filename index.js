@@ -361,4 +361,4 @@ if (message.author.bot)return;
 
 
 
-client.login(config.token);
+client.login(process.eve.BOT_TOKEN);
